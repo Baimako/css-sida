@@ -4,41 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <h1>Min Spel-Bibbla</h1>
+      <!--Lägg till ikoner till länkarna-->
+      <nav id="navbar">
+        <ul>
+          <li><a href="#">Steam</a></li>
+          <li><a href="#">Nintendo</a></li>
+          <li><a href="#">Playstation</a></li>
+          <li><a href="#">Discord</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#">Steam</a></li>
-        <li><a href="#">Nintendo</a></li>
-        <li><a href="#">Playstation</a></li>
-        <li><a href="#">Discord</a></li>
-      </ul>
-    </nav>
     <main>
       <section id="hero">
-        <p>
-          Det här än en liten sida där jag kommer lägga in spel jag spelar och
-          spel jag vill spela i framtiden, eller bara klara ut. Kanske att jag
-          kommer lägga ut spel jag spelat klart redan, får se.
-        </p>
+        <div class="hero-container">
+          <h2>Vart hamnade jag nu?</h2>
+          <p>
+            Det här än en liten sida där jag kommer lägga in spel jag spelar och
+            spel jag vill spela i framtiden, eller bara klara ut. Kanske att jag
+            kommer lägga ut spel jag spelat klart redan, får se.
+          </p>
+        </div>
       </section>
       <section id="game">
         <div class="gamelibrary">
-          <h2>Vad spelar jag nu?</h2>
+          <h3>Vad spelar jag nu?</h3>
           <ul>
-            <li>Don't starve togehter</li>
-            <li>Monster hunter wilds</li>
-            <li>Stardew valley</li>
-            <li>Super mario wonder</li>
+            <li>
+              <img
+                src="image/Don't_Starve_cover.jpg"
+                alt="don't starve cover"
+              />
+            </li>
+            <li>
+              <img
+                src="image/Monster_Hunter_Wilds_cover.png"
+                alt="monster hunter wilds cover"
+              />
+            </li>
+            <li>
+              <img
+                src="image/Logo_of_Stardew_Valley.png"
+                alt="stardew valley cover"
+              />
+            </li>
+            <li>
+              <img src="image/Mariowonder.png" alt="super mario wonder cover" />
+            </li>
           </ul>
         </div>
         <div class="wishlist">
-          <h2>Vad jag vill spela framöver</h2>
+          <h3>Vad jag vill spela framöver</h3>
           <ul>
-            <li>Plauge 2</li>
+            <img
+              src="image/A_Plague_Tale_Requiem_cover_art.jpg"
+              alt="a plauge tale reqiem cover"
+            />
             <li>God of war ragnarok</li>
             <li>Setsuna</li>
             <li>Final fantasy VII</li>
@@ -46,6 +71,7 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <!--Fixera footern till botten?-->
+    <footer>Botten</footer>
   </body>
 </html>

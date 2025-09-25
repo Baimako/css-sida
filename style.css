@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  align-items: center;
+  padding-left: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 20px;
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+a:hover {
+  color: red;
+}
+#hero {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+#game ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: space-between;
+}
+.gamelibrary {
+  background: wheat;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.hero-container {
+  /*Lägg till en bakgrund*/
+
+  text-align: center;
+
+  width: 850px;
+}
+.wishlist {
+  background: lightgray;
+  padding: 20px;
+}
+footer {
+  background-color: antiquewhite;
+}
+h3 {
+  margin: 20px;
+  padding: 10px;
+}
+#game img:hover {
+  box-shadow: 4px 4px 10px gray;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+#game {
+}
